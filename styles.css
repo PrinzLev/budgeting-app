@@ -1,0 +1,110 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ff9642;
+  color: bisque;
+}
+
+header .app-title h1 {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2rem;
+  padding: 2px 25px;
+}
+form {
+  color: white;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+form input {
+  background-color: #ff9642;
+  color: white;
+  margin-right: 30px;
+  width: 250px;
+  height: 32px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: white 3px solid;
+  outline: none;
+  outline-style: none;
+}
+td input {
+  background-color: #206a5d;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  outline-style: none;
+  font-family: "Prompt", sans-serif;
+  border-bottom: white 2px solid;
+}
+td input::placeholder {
+  font-size: 0.75rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+h2 {
+  display: block;
+  margin-right: 5px;
+  margin-left: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 50px 25% 50px;
+}
+table,
+td,
+th {
+  border: none;
+  font-family: "Prompt", sans-serif;
+}
+.input-section {
+  padding-bottom: 100px;
+}
+
+.salary {
+  text-align: left;
+  border-top: solid 1px white;
+  color: #bceb3c;
+}
+.savings {
+  color: #ebdc87;
+}
+.budget-table {
+  height: 500px;
+  padding: 20px 50px;
+  background-color: #206a5d;
+}
+.set-button {
+  font-family: "Prompt", sans-serif;
+  font-weight: bolder;
+  font-size: 0.95rem;
+  width: 150px;
+}
+header .app-logo {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  text-align: left;
+  margin-left: 475px;
+}
+::placeholder {
+  color: #f4f3f3;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
